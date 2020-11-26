@@ -1,0 +1,45 @@
+{
+    "name": "jalendport/craft-stripecheckout",
+    "description": "Bringing the power of Stripe Checkout to your Craft templates.",
+    "type": "craft-plugin",
+    "version": "2.1.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "stripe checkout"
+    ],
+    "support": {
+        "docs": "https://github.com/jalendport/craft-stripecheckout/blob/v2/README.md",
+        "issues": "https://github.com/jalendport/craft-stripecheckout/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jalen Davenport",
+            "homepage": "https://jalendport.com"
+        },
+        {
+            "name": "Luke Youell",
+            "homepage": "https://github.com/lukeyouell"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0",
+        "stripe/stripe-php": "^6.7"
+    },
+    "autoload": {
+        "psr-4": {
+          "jalendport\\stripecheckout\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Stripe Checkout",
+        "handle": "stripe-checkout",
+        "hasCpSettings": true,
+        "hasCpSection": true,
+        "changelogUrl": "https://raw.githubusercontent.com/jalendport/craft-stripecheckout/v2/CHANGELOG.md",
+        "class": "jalendport\\stripecheckout\\StripeCheckout"
+    }
+}
