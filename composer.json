@@ -1,5 +1,5 @@
 {
-    "name": "jalendport/craft-stripecheckout",
+    "name": "jalendport/craft for stripecheckout",
     "description": "Bringing the power of Stripe Checkout to your Craft templates.",
     "type": "craft-plugin",
     "version": "2.1.0",
